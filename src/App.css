@@ -30,3 +30,12 @@
     transform: rotate(360deg);
   }
 }
+
+th {
+  text-transform: uppercase;
+}
+
+td th {
+  border: 1px solid;
+  padding: 10px;
+}

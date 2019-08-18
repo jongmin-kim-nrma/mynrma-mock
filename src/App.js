@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import FindRegoByJobNumber from './FindRegoByJobNumber';
-// import Feed from './FindBatteryByRego';
 
 function App() {
   
@@ -23,7 +22,7 @@ function App() {
        <nav className="navbar navbar-light bg-light">
       <a className="navbar-brand" href="#">
         <img src={logo} className="App-logo" alt="logo" width={30} height={30} class="d-inline-block align-top" alt="NRMA Logo"/>
-          Battery
+          Search Service Provider
       </a>
     </nav>   
     <FindRegoByJobNumber />
